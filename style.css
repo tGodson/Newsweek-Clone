@@ -1,0 +1,145 @@
+body{
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: #f72210;
+    
+}
+ul{
+    list-style: none;
+}
+
+nav{
+    display: none;
+}
+
+img[alt="logo"] {
+    height: 20px;
+    width: auto;
+}
+
+header a, header .date {
+    color: white;
+}
+
+.weather-date {
+    display: none;
+}
+
+.weather {
+    display: none;
+}
+.weather-icon {
+    height: 24px;
+    width: auto;
+}
+header {
+    height: 50px;
+    position: relative;
+}
+.signIn, .subscribe a {
+    font: bold 14px/14px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 3px;
+}
+.subscribe a{
+    color:  #f72210;
+    background-color: white;
+}
+.row{
+    justify-content: space-around;
+    text-align: center;
+}
+.last-column {
+    display: flex;
+    right: 1rem;
+}
+img[alt="menu"]{
+    display: block;
+}
+.weather-date,.first-column,.weather,.last-column {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+img[alt="search-icon"]{
+    height: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .first-column{
+        left: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .weather {
+        display: block;
+    }
+    .signIn, .subscribe a {
+        font-size: 18px;
+    }
+    .first-column{
+        left: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .weather-date {
+        display: block;
+        left: 1rem;
+    }
+    header {
+        height: 95px;
+    }
+    nav{
+        display: block;
+    }
+    nav ul{
+        display: flex;
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: bold;
+        font-family: "Roboto Condensed",sans-serif;
+        justify-content: center;
+        width: 100%;
+        padding: 15px 0px;
+        border-bottom: solid 1px #f4f5f6;
+
+    }
+    nav ul li{
+        padding-right:3px;
+        padding-left:3px;
+        border-right: solid 1px #d9d9d9;;
+    }
+    nav ul li a{
+        color: black;
+        display: block;
+    }
+
+    input[name="search"]{
+        width: 60px;
+        border:none;
+    }
+    img[alt="logo"] {
+        height: 60px;
+        width: auto;
+    }
+    img[alt="menu"]{
+        display: none;
+    }
+    .signIn, .subscribe a {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1440px){
+        nav ul li{
+            padding-right:18px;
+            padding-left:18px;
+        }
+    }
+}
