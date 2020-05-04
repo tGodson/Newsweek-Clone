@@ -5,62 +5,75 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
   <link rel="stylesheet" href="style.css">
   
 </head>
 <body>
     <div class="wrapper">
         <div>
-        <header>
-            <div class="row">
-                <div class="weather-date">
-                    <div  class="col-12 api">
+            <header>
+                <div class="row">
+                    <div class="weather-date">
+                        <div  class="col-12 api">
+                            <a href="#">
+                                <img src="https://g.newsweek.com/img/weather/28.png" alt="Mostly Cloudy" class="weather-icon">&nbsp;&nbsp;32°
+                                <span class="weather-country">Buea, CM&nbsp;&nbsp;<picture style="display:inherit;"><source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp"><img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" alt="weather" class="weather-arrow"></picture></span>
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <span class="date">Tue, Apr 28, 2020</span>
+                        </div>
+                    </div>
+                    <div class="first-column">
+                        <a><img src="./images/logo.PNG" alt="logo"/></a>       
+                    </div>
+                    <div class="weather">
                         <a href="#">
                             <img src="https://g.newsweek.com/img/weather/28.png" alt="Mostly Cloudy" class="weather-icon">&nbsp;&nbsp;32°
-                            <span class="weather-country">Buea, CM&nbsp;&nbsp;<picture style="display:inherit;"><source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp"><img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow"></picture></span>
+                            <span class="weather-country">Buea, CM&nbsp;&nbsp;<picture style="display:inherit;"><source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp"><img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" alt="white-arrow" class="weather-arrow"></picture></span>
                         </a>
                     </div>
-                    <div class="col-12">
-                        <date class="date">Tue, Apr 28, 2020</date>
+                    <div class="last-column" >
+                        <a class="signIn" href="#">Sign In</a>
+                        <div class="subscribe"><a class="subs" target="_blank" href="#">Subscribe
+                            <span><i class="fas fa-greater-than"></i></span>
+                        </a></div>&nbsp;&nbsp;
+                        <img src="./images/menu.PNG" alt="menu"/>
                     </div>
                 </div>
-                <div class="first-column">
-                    <a><img src="./images/logo.PNG" alt="logo"/></a>       
-                </div>
-                 <div class="weather">
-                    <a href="#">
-                        <img src="https://g.newsweek.com/img/weather/28.png" alt="Mostly Cloudy" class="weather-icon">&nbsp;&nbsp;32°
-                        <span class="weather-country">Buea, CM&nbsp;&nbsp;<picture style="display:inherit;"><source srcset="https://g.newsweek.com/img/weather/ic-white-arrow.webp" type="image/webp"><img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" class="weather-arrow"></picture></span>
-                    </a>
-                </div>
-                <div class="last-column" >
-                    <a class="signIn" href="#">Sign In</a>
-                    <div class="subscribe"><a class="subs" target="_blank" href="#">Subscribe</a></div>&nbsp;&nbsp;
-                    <img src="./images/menu.PNG" alt="menu"/>
-                </div>
-            </div>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="#">U.S</a></li>
-                <li><a href="#">World</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Tech&Science</a></li>
-                <li><a href="#">Culture</a></li>
-                <li><a href="#">Newsgeek</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Health</a></li>
-                <li><a href="#">The Debate</a></li>
-                <li><a href="#">Vantage</a></li>
-                <li><a href="#">Weather</a></li>
-                
-                    <form action="#" method="POST">
-                        <input type="text" name="search" placeholder="search"/>
-                        <img src="./images/search-icon-blk.png" alt="search-icon"/>
-                    </form>
-                
-            </ul>
-        </nav>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">U.S</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Tech&Science</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">Newsgeek</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">The Debate</a></li>
+                    <li><a href="#">Vantage</a></li>
+                    <li><a href="#">Weather</a></li>
+                    <li>
+                        <form action="#" method="POST">
+                            <input type="text" name="search" placeholder="search"/>
+                            <img src="./images/search-icon-blk.png" alt="search-icon"/>
+                        </form>
+                    </li>
+                </ul>
+                <span class="d-none d-lg-inline floated"></span>
+            </nav>
         </div>
         
 		<main class="container-fluid">
