@@ -8,12 +8,12 @@
 
 - HTML,
 - CSS
--Bootstrap
+- Bootstrap
 
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/tGodson/Newsweek-Clone/178609c83900719cf40a92d90914622354ea21ad/index.html)
 
 
 
