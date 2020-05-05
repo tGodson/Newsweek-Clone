@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tGodson/Newsweek-Clone/178609c83900719cf40a92d90914622354ea21ad/index.html)
+[Live Demo Link](https://rawcdn.githack.com/tGodson/Newsweek-Clone/ba1e29a420a35216877c74face49e3af49285fad/index.html)
 
 
 
