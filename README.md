@@ -16,7 +16,6 @@
 [Live Demo Link](https://rawcdn.githack.com/tGodson/Newsweek-Clone/572ac6737cd9fe4fa9e80b492ba92d54b09507a3/index.html)
 
 
-
 👤 **Author**
 
 - Github: [@tGodson](https://github.com/tGodson)
