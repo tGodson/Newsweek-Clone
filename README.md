@@ -1,6 +1,6 @@
 # Apple website webpage clone
 
-> Microverse Project: A replica of old Apple website webpage 
+> Microverse Project: A replica of the Newsweek magazine 
 
 ![screenshot](./app_screenshot.PNG)
 
@@ -8,13 +8,12 @@
 
 - HTML,
 - CSS
--Bootstrap
+- Bootstrap
 
 
 ## Live Demo
 
-[Live Demo Link]()
-
+[Live Demo Link](https://rawcdn.githack.com/tGodson/Newsweek-Clone/572ac6737cd9fe4fa9e80b492ba92d54b09507a3/index.html)
 
 
 👤 **Author**
@@ -35,10 +34,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Had a lot of ideas looking at @hatemswaileh code during his code presectation
-- Inspiration - @hatemswaileh
-
-[![Is <username> available for hire?](http://hireable.me/<username>)](http://hireable.me/p/<username>)
+- Had a lot of help from  @ebeagusamuel
 
 ## 📝 License
 
